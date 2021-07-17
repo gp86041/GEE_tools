@@ -1,5 +1,5 @@
 ///////////////change point location to your own location of interest before running
-var point = ee.Geometry.Point([-81.7653, 41.5502]); ////example use of a buoy in Lake Erie
+var point = ee.Geometry.Point([-81.7653, 41.5502]); ////example use of a buoy location in Lake Erie
 
 
 var dataset = ee.ImageCollection('NOAA/CDR/SST_PATHFINDER/V53')
